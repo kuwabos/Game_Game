@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="100" height="15" tilewidth="128" tileheight="128" infinite="0" nextlayerid="9" nextobjectid="2">
+ <editorsettings>
+  <export target="map1.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="Game_game blocks" tilewidth="128" tileheight="128" tilecount="3" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="Minecraft_Grass_Block.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="Java.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="C#.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="4" name="Game_game blocks" tilewidth="128" tileheight="128" tilecount="4" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="Minecraft_Grass_Block.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="Java.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="C#.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="Axolotl in a bottle.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="8" name="Game_game blocks" tilewidth="128" tileheight="128" tilecount="4" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="Minecraft_Grass_Block.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="Java.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="C#.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="Axolotl in a bottle.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="12" name="Game_game blocks" tilewidth="128" tileheight="128" tilecount="4" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="Minecraft_Grass_Block.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="Java.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="C#.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="Axolotl in a bottle.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="16" name="Game_game blocks" tilewidth="128" tileheight="128" tilecount="5" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="Minecraft_Grass_Block.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="Java.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="C#.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="Axolotl in a bottle.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="Ladder.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="21" name="Game_game blocks" tilewidth="128" tileheight="128" tilecount="5" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="Minecraft_Grass_Block.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="Java.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="C#.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="Axolotl in a bottle.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="Ladder.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="26" name="Game_game blocks" tilewidth="128" tileheight="128" tilecount="5" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="Minecraft_Grass_Block.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="Java.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="C#.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="Axolotl in a bottle.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="Ladder.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Platforms" width="100" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztlMEOgCAMQ8dO/v8XezIhs9twQOTQlyxREVrWgAghhBBSR/82QAghC+Bddg7M4hyYxTkwi3m0UN46q2mJFtLsxyK/O5nR/Do36sFKvCx6Pc/LU03WZNISP8iDt4atWazWriyaeUeaKu/9KfjunZXsHog89D4jHTuOuAKNDNSDavbo35G5du9eL6N+Rf+hfaDn0bI5eWe4Wjf85gER
+  </data>
+ </layer>
+ <layer id="7" name="Ladders" width="100" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6CHsH9WY3xTSEACAAAAcNO0AwC8spjQABU=
+  </data>
+ </layer>
+ <objectgroup id="8" name="Moving Platforms">
+  <object id="1" gid="27" x="10100.7" y="752.235" width="128" height="128"/>
+ </objectgroup>
+ <layer id="3" name="Coins" width="100" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztluEKgDAIhKX+FMTe/3GjYDBiTs3JFt0H+zXxDq9JRAAA8C3SaAMAANAB7LJ5uLJYRpsANzkLvI94ErXnjHdhx/PdIov+ROyRiB3F9UrCfRRaPauvWv1qOFw/aZdJHlr3tfqnrkVf6+MNPXp68sgerPPg5qjtwXmx6Gs5nFole3E2psabx5+Y8b/xBNSZAvo=
+  </data>
+ </layer>
+ <layer id="5" name="Foreground" width="100" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAIDXABdwAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Don't Touch" width="100" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAIDXABdwAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Axolotl" width="100" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1aENAEAIBEEcgv77ffUGTQJipoDLussAAAAANuV2AAA0V79psqsGt74HAt8AKA==
+  </data>
+ </layer>
+</map>

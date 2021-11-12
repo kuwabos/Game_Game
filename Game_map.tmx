@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="100" height="5" tilewidth="128" tileheight="128" infinite="0" nextlayerid="4" nextobjectid="1">
+ <editorsettings>
+  <export target="map3.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="Game_game blocks" tilewidth="128" tileheight="128" tilecount="3" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="Minecraft_Grass_Block.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="Java.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="C#.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Platforms" width="100" height="5">
+  <data encoding="base64" compression="zlib">
+   eJztVMsOwCAIA/7/o3daYrAFhnhbEw4+oC1ERTCM7P+owxrB6kxDEy7EuZ5Fem/ihPNrbtSDSbBZrHxMyxsqMzPRRA/SwGr4OIXnujULdWvEabL7M7DP3kr2D2S9Y9xG7rD6zGcFSGd39uhuJRd5y3rJcio+fO+q/iNe9Ia78QCQzgEP
+  </data>
+ </layer>
+ <layer id="3" name="Coins" width="100" height="5">
+  <data encoding="base64" compression="zlib">
+   eJzVlM0KwCAMgwu+/zvvsoOUJDbBwxYQBvbn08atqlrvKvKN1i62p/JRrKo52UdxU44po8OTiN0Lq8dmh3I724QV5Shehy2dBavZ+Vhu0qv3ZXI8kHjEmZniYvcyiT95wlEyD8atZtz7Ie5JXZTn6Ma/4aav0rfhnkH5C8X+QV/kfAA3cAKD
+  </data>
+ </layer>
+</map>
